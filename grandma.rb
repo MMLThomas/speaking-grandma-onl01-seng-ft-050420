@@ -2,11 +2,11 @@
 
 def speak_to_grandma(arg)
   if arg != arg.upcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   elsif arg == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    "I LOVE YOU TOO PUMPKIN!"
   else
-    puts "NO, NOT SINCE 1938!"
+    "NO, NOT SINCE 1938!"
   end
 end
 
